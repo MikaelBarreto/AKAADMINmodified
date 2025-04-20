@@ -579,7 +579,7 @@ local function setupQueueTeleport()
             local teleportScript = [[
                 task.spawn(function()
                     local success, source = pcall(function()
-                        return game:HttpGet('https://raw.githubusercontent.com/LOLkeeptrying/AKADMIN/refs/heads/main/Congratslol')
+                        return game:HttpGet('https://raw.githubusercontent.com/MikaelBarreto/AKAADMINmodified/refs/heads/main/Modifiedone')
                     end)
                     if success and source then
                         loadstring(source)()
